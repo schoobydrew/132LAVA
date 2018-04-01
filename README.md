@@ -1,2 +1,2 @@
 # 132LAVA
-We're doing something
+CDC 132 Project
