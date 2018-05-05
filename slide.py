@@ -32,10 +32,16 @@ def encryptPhrase():
     generatedpass.config(text=x)
     textbox.delete(0, END)
 def longWord():
+    #takes dictionary words to create a new phrase
     print "BOY"
+#main window
 root = Tk()
+#sizing, weight the columns to not move
 root.geometry("400x100")
 root.resizable(0,0)
+root.columnconfigure(0, weight=0)
+root.columnconfigure(1, weight=1)
+root.columnconfigure(2, weight=0)
 #label that we work with on the app
 generatedpass = Label(root, text="Your string will appear here!")
 generatedpass.grid(row=0, column=1)
