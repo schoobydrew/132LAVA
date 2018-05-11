@@ -11,7 +11,6 @@ characterlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'
 #file path for USB
 def getSliderValue():
     x = scale.get()
-    print x
     return x
 def copyPaste(a):
     #put the string on the clipboard for copy and paste!
