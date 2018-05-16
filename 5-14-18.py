@@ -1,4 +1,4 @@
-#made by Andrew Schoonmaker, Landry, Reggie... fix yalls names
+#made by Andrew Schoonmaker, Landry, Reginald Thomas fix yalls names
 from Tkinter import *
 import serial
 from random import randint, seed, choice
