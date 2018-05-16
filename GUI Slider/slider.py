@@ -85,6 +85,7 @@ def longWord():
     copyPaste(combinedWords)
 #main window
 root = Tk()
+root.title("LAVA")
 #sizing, weight the columns to not move
 root.geometry("400x100")
 root.resizable(0,0)
